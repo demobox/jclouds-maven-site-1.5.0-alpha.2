@@ -1,0 +1,7 @@
+org.jclouds.gae
+org.jclouds.gae.config
+org.jclouds.tools.ant.logging.config
+org.jclouds.tools.ant.logging
+org.jclouds.tools.ant.taskdefs.compute
+org.jclouds.tools.ant.taskdefs.sshjava
+org.jclouds.tools.ant.util
