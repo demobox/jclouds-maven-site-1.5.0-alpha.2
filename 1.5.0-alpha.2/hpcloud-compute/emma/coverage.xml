@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Apr 26 17:38:27 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="6"/>
+    <methods value="23"/>
+    <srcfiles value="5"/>
+    <srclines value="36"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="17%  (1/6)"/>
+      <coverage type="method, %" value="48%  (11/23)"/>
+      <coverage type="block, %" value="21%  (29/139)"/>
+      <coverage type="line, %" value="31%  (11/36)"/>
+
+      <package name="org.jclouds.hpcloud.compute.config">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/3)"/>
+        <coverage type="block, %" value="0%   (0/19)"/>
+        <coverage type="line, %" value="0%   (0/5)"/>
+
+        <srcfile name="HPCloudComputeServiceContextModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/19)"/>
+          <coverage type="line, %" value="0%   (0/5)"/>
+
+          <class name="HPCloudComputeServiceContextModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/19)"/>
+            <coverage type="line, %" value="0%   (0/5)"/>
+
+            <method name="HPCloudComputeServiceContextModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="provideTemplate (Injector, TemplateBuilder): TemplateBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.compute">
+        <coverage type="class, %" value="20%  (1/5)"/>
+        <coverage type="method, %" value="55%  (11/20)"/>
+        <coverage type="block, %" value="24%  (29/120)"/>
+        <coverage type="line, %" value="35%  (11/31)"/>
+
+        <srcfile name="HPCloudComputeContextBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/11)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="HPCloudComputeContextBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/11)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="HPCloudComputeContextBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudComputePropertiesBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/39)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="HPCloudComputePropertiesBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/39)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="HPCloudComputePropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/35)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudComputeServiceAdapter.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/5)"/>
+          <coverage type="block, %" value="0%   (0/41)"/>
+          <coverage type="line, %" value="0%   (0/6)"/>
+
+          <class name="HPCloudComputeServiceAdapter">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/15)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="HPCloudComputeServiceAdapter (NovaClient, Supplier, RemoveFloatingIpFromNodeAndDeallocate, LoadingCache): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="listImages (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="HPCloudComputeServiceAdapter$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/26)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="HPCloudComputeServiceAdapter$1 (HPCloudComputeServiceAdapter): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (ImageInZone): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudComputeProviderMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (11/11)"/>
+          <coverage type="block, %" value="100% (29/29)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="HPCloudComputeProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (11/11)"/>
+            <coverage type="block, %" value="100% (29/29)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="HPCloudComputeProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getApiDocumentation (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getConsole (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCredentialName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getHomepage (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIdentityName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getIso3166Codes (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLinkedServices (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
